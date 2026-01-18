@@ -759,6 +759,27 @@ function App() {
               Kampaamo- ja parturipalvelut Lahden keskustassa.
             </p>
           </div>
+          <div
+            className="footer-social"
+            aria-label="Salon LisaHairzin sosiaalisen median linkit"
+          >
+            <a
+              href="https://www.instagram.com/salonlisahairz/"
+              className="footer-social-link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Instagram
+            </a>
+            <a
+              href="https://www.facebook.com/salonlisahairz/"
+              className="footer-social-link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Facebook
+            </a>
+          </div>
           <div className="footer-meta">
             <p>Y-tunnus 3244579-2 · Kotipaikka Asikkala</p>
             <p>© {currentYear} Salon LisaHairz. Kaikki oikeudet pidätetään.</p>
