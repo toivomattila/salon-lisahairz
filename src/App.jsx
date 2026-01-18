@@ -606,6 +606,8 @@ function App() {
               <img
                 src="https://images.pexels.com/photos/3738343/pexels-photo-3738343.jpeg?auto=compress&cs=tinysrgb&w=800"
                 alt="Tunnelmallinen hiussalonki, jossa asiakas ja kampaaja"
+                width="800"
+                height="1200"
               />
             </aside>
           </div>
