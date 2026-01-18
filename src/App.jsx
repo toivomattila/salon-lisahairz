@@ -2,7 +2,9 @@ import './App.css'
 
 import ServiceFinder from './components/ServiceFinder'
 
-const TIMMA_URL = 'https://timma.fi/yritys/salon-lisahairz'
+const TIMMA_URL = 'https://varaa.timma.fi/salonlisahairz'
+const INSTAGRAM_URL = 'https://www.instagram.com/salonlisahairz/'
+const FACEBOOK_URL = 'https://www.facebook.com/salonlisahairz/'
 
 const serviceCategories = [
   {
@@ -402,18 +404,58 @@ function App() {
             <span className="brand-name">LisaHairz</span>
           </a>
           <nav className="main-nav" aria-label="Päävalikko">
-            <a href="#services">Palvelut & hinnasto</a>
-            <a href="#about">Meistä</a>
-            <a href="#finder">Löydä palvelu</a>
-            <a href="#contact">Yhteystiedot</a>
-            <a
-              href={TIMMA_URL}
-              className="nav-cta"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Varaa aika
-            </a>
+            <div className="main-nav-links">
+              <a href="#services">Palvelut & hinnasto</a>
+              <a href="#about">Meistä</a>
+              <a href="#finder">Löydä palvelu</a>
+              <a href="#contact">Yhteystiedot</a>
+            </div>
+            <div className="main-nav-actions">
+              <div className="nav-social" aria-label="Salon LisaHairzin sosiaalinen media">
+                <a
+                  href={INSTAGRAM_URL}
+                  className="nav-social-link"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Salon LisaHairz Instagramissa"
+                >
+                  <svg
+                    className="nav-social-icon"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                    focusable="false"
+                  >
+                    <rect x="3" y="3" width="18" height="18" rx="5" />
+                    <circle cx="12" cy="12" r="4.2" />
+                    <circle cx="17" cy="7" r="1.3" />
+                  </svg>
+                </a>
+                <a
+                  href={FACEBOOK_URL}
+                  className="nav-social-link"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Salon LisaHairz Facebookissa"
+                >
+                  <svg
+                    className="nav-social-icon"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                    focusable="false"
+                  >
+                    <path d="M14 8h2.2V5.5H14c-2.3 0-4.1 1.8-4.1 4.1V12H8v2.7h1.9V19h2.9v-4.3h2.2L16.5 12H12v-2.4c0-.9.7-1.6 1.6-1.6Z" />
+                  </svg>
+                </a>
+              </div>
+              <a
+                href={TIMMA_URL}
+                className="nav-cta"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Varaa aika
+              </a>
+            </div>
           </nav>
         </div>
       </header>
@@ -745,6 +787,20 @@ function App() {
                 Avaa osoite Google Mapsissa
               </a>
             </aside>
+          </div>
+          <div
+            className="container contact-map-wrapper"
+            aria-label="Salon LisaHairzin sijainti kartalla"
+          >
+            <div className="contact-map">
+              <iframe
+                title="Salon LisaHairz kartalla"
+                src="https://www.google.com/maps?q=Vesij%C3%A4rvenkatu+52+15140+Lahti&output=embed"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                allowFullScreen=""
+              ></iframe>
+            </div>
           </div>
         </section>
       </main>

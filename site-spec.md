@@ -8,7 +8,7 @@
 - **Käyntiosoite**: Vesijärvenkatu 52, 15140 Lahti ([lähde: Finder](https://www.finder.fi/Kampaamot+ja+parturit/Salon+Lisa+Hairz/Lahti/yhteystiedot/3687961))  
 - **Puhelin**: 040 743 5724  
 - **Kotipaikka**: Asikkala (yritysmuoto: yksityinen elinkeinonharjoittaja)  
-- **Online-ajanvaraus**: Timma-profiili – `https://timma.fi/yritys/salon-lisahairz`  
+- **Online-ajanvaraus**: Timma-ajanvaraus – `https://varaa.timma.fi/salonlisahairz`  
 
 ### 2. What a professional hair salon site should contain
 
@@ -82,7 +82,7 @@
   - Tagline (esim. “Moderni kampaamo Lahden keskustassa – yksilölliset leikkaukset ja värjäykset”).
   - Pääkuva taustalla tai sivulla.
   - **Painikkeet**:
-    - “Varaa aika Timman kautta” → `https://timma.fi/yritys/salon-lisahairz`
+    - “Varaa aika Timman kautta” → `https://varaa.timma.fi/salonlisahairz`
     - “Katso palvelut ja hinnasto” → sisäinen linkki /palvelut.
 
 - **Pikakatsaus palveluihin**
@@ -103,7 +103,7 @@
 
 #### 3.3 Palvelut & hinnasto -sivu
 
-Rakennetaan selkeästi kategorioihin jaoteltu hinnasto Timma-sivua mukaillen (`https://timma.fi/yritys/salon-lisahairz`):
+Rakennetaan selkeästi kategorioihin jaoteltu hinnasto Timma-sivua mukaillen (`https://varaa.timma.fi/salonlisahairz`):
 
 - **Leikkaukset**
   - Kampaamoleikkaus – 40 €
@@ -181,7 +181,7 @@ Kullekin kategoriakortille lisätään:
 
 - **Ajanvaraus**
   - Selkeä painike ja teksti:
-    - “Varaa aika helposti Timman kautta” → `https://timma.fi/yritys/salon-lisahairz`
+    - “Varaa aika helposti Timman kautta” → `https://varaa.timma.fi/salonlisahairz`
   - Lyhyt teksti peruutusehdoista ja saapumisohjeista.
 
 - **Yhteydenottolomake (valinnainen)**
@@ -190,7 +190,7 @@ Kullekin kategoriakortille lisätään:
 
 ### 4. Visual guidelines & design system
 
-Perustuu Timma-ajanvarausprofiilin rakenteeseen (`https://timma.fi/yritys/salon-lisahairz`) ja moderniin kampaamosivustoon:
+Perustuu Timma-ajanvarausprofiilin rakenteeseen (`https://varaa.timma.fi/salonlisahairz`) ja moderniin kampaamosivustoon:
 
 - **Yleinen fiilis**
   - Moderni, raikas ja rauhallinen – selkeä luettavuus etusijalla.
