@@ -1,6 +1,7 @@
 import './App.css'
 
 import ServiceFinder from './components/ServiceFinder'
+import InstagramFeed from './components/InstagramFeed'
 
 const TIMMA_URL = 'https://varaa.timma.fi/salonlisahairz'
 const INSTAGRAM_URL = 'https://www.instagram.com/salonlisahairz/'
@@ -711,6 +712,23 @@ function App() {
                 <figcaption>– Vanhempi, 2. luokkalainen</figcaption>
               </figure>
             </div>
+          </div>
+        </section>
+
+        <section
+          id="instagram"
+          className="section section-instagram"
+          aria-labelledby="instagram-heading"
+        >
+          <div className="container">
+            <header className="section-header">
+              <h2 id="instagram-heading">Seuraa meitä Instagramissa</h2>
+              <p className="section-intro">
+                Kurkista salonkiin ja katso tuoreimmat hiusinspiraatiot
+                @salonlisahairz-tililtä.
+              </p>
+            </header>
+            <InstagramFeed />
           </div>
         </section>
 

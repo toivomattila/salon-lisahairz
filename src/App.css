@@ -20,6 +20,10 @@
   background: var(--color-bg-alt);
 }
 
+.section-instagram {
+  background: var(--color-bg);
+}
+
 .section-about,
 .section-testimonials,
 .section-contact {
@@ -700,6 +704,15 @@
 
 .section-testimonials {
   background: var(--color-bg-alt);
+}
+
+.instagram-widget {
+  background: var(--color-surface);
+  border-radius: 1.6rem;
+  padding: 1.4rem 1.5rem 1.6rem;
+  box-shadow: 0 14px 32px rgba(26, 13, 5, 0.12);
+  border: 1px solid rgba(225, 210, 198, 0.9);
+  overflow: hidden;
 }
 
 .section-photo-break {
