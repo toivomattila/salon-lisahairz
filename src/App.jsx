@@ -675,45 +675,6 @@ function App() {
           </div>
         </section>
 
-        <section
-          className="section section-testimonials"
-          aria-labelledby="testimonials-heading"
-        >
-          <div className="container">
-            <header className="section-header">
-              <h2 id="testimonials-heading">Asiakkaat kertovat</h2>
-              <p className="section-intro">
-                Arvostelut perustuvat Timman kautta jätettyihin
-                asiakaskokemuksiin – tässä muutama tyypillinen palaute.
-              </p>
-            </header>
-            <div className="testimonial-grid">
-              <figure className="testimonial">
-                <blockquote>
-                  Todella ystävällinen palvelu ja ihanan rauhallinen
-                  tunnelma. Leikkaus onnistui täydellisesti ja sain
-                  hyvät kotihoito-ohjeet.
-                </blockquote>
-                <figcaption>– Nainen, 30 v</figcaption>
-              </figure>
-              <figure className="testimonial">
-                <blockquote>
-                  Ensimmäinen kerta Salon LisaHairzissa, mutta ei
-                  varmasti viimeinen. Väri on juuri sellainen kuin
-                  toivoin ja hiukset tuntuvat terveiltä.
-                </blockquote>
-                <figcaption>– Nainen, 42 v</figcaption>
-              </figure>
-              <figure className="testimonial">
-                <blockquote>
-                  Lapsen hiustenleikkaus sujui rennosti ja nopeasti.
-                  Mukava ilmapiiri ja osaava ote myös pieniin asiakkaisiin.
-                </blockquote>
-                <figcaption>– Vanhempi, 2. luokkalainen</figcaption>
-              </figure>
-            </div>
-          </div>
-        </section>
 
         <section
           id="instagram"
@@ -855,7 +816,7 @@ function App() {
             </a>
           </div>
           <div className="footer-meta">
-            <p>Y-tunnus 3244579-2 · Kotipaikka Asikkala</p>
+            <p>Y-tunnus 3244579-2</p>
             <p>© {currentYear} Salon LisaHairz. Kaikki oikeudet pidätetään.</p>
           </div>
         </div>
